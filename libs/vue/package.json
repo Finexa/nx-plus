@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/ZachJW34/nx-plus/tree/master/libs/vue#readme",
   "peerDependencies": {
-    "@nrwl/cypress": "^14.3.6",
-    "@nrwl/jest": "^14.3.6",
-    "@nrwl/linter": "^14.3.6",
-    "@nrwl/workspace": "^14.3.6"
+    "@nrwl/cypress": "^15.0.4",
+    "@nrwl/jest": "^15.0.4",
+    "@nrwl/linter": "^15.0.4",
+    "@nrwl/workspace": "^15.0.4"
   },
   "dependencies": {
     "@nrwl/devkit": "^14.3.6",
