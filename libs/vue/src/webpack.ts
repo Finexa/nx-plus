@@ -58,6 +58,10 @@ export function modifyTsConfigPaths(
     } else {
       args[0].tsconfig = tsConfigPath;
     }
+    const memoryLimit = process.env.nx_webpack_memory_limit;
+    if (memoryLimit) {
+      args[0].memoryLimit = memoryLimit;
+    }
     return args;
   });
 }
